@@ -15,7 +15,7 @@ public class EmployeeInfo {
     }
 
     public void setSalary(double salary) {
-        Salary = salary;
+        this.Salary = salary;
     }
 
     public long getSSN() {

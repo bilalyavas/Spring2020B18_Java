@@ -14,7 +14,7 @@ public class CheckingAccount extends BankAccount {
     balance (Inherited)
 
     deposit (Inherited)
-    withDraw (declared
+    withDraw (declared)
     showBalance (Inherited)
     ToString (Inherited)
      */

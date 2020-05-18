@@ -24,7 +24,7 @@ public class BusinessAnalyst extends Employee {
         this.name=name;
         this.salary=salary;
         this.id=id;
-        this.jobTitle="Business Analyst";
+        jobTitle="Business Analyst";
         this.gender=gender;
     }
 

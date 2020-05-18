@@ -18,7 +18,14 @@ public class EmployeeObjects {
 
         System.out.println( tester1 );
 
-        BusinessAnalyst BA1 = new BusinessAnalyst("Ozgur", 120000, 789, 'M')
+        BusinessAnalyst BA1 = new BusinessAnalyst("Ozgur", 120002, 789, 'M');
+       // BA1.coding();
+       //  BA1.fixingBug();
+        BA1.writingReq();
+        BA1.gathering();
+
+        System.out.println( BA1);
+
 
 
 

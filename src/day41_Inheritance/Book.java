@@ -12,4 +12,8 @@ public class Book {
     public double price;
 
 
+    public String toString(){
+        return title+" "+ author+" $"+price;
+    }
+
 }

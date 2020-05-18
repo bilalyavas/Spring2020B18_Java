@@ -11,6 +11,12 @@ public class EmployeeObjects {
 
         System.out.println( dev1 );
 
+        Tester tester1 = new Tester("Hilal", 120005, 456, "QA", 'F' );
+
+       // tester1.coding();
+        tester1.reporting();
+
+        System.out.println( tester1 );
 
 
 

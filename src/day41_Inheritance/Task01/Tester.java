@@ -31,7 +31,7 @@ public class Tester extends Employee {
 
 
     public void reporting(){
-        System.out.println(name+" is reporting");
+        System.out.println(name+" is reporting a bug");
     }
 
     public void testing(){

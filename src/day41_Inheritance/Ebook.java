@@ -5,11 +5,14 @@ public class Ebook extends Book{
     title (inherited)
     author (inherited)
     price (inherited)
-    toString() (inherited)
+
 
     size (declared)
     pages (declared)
-    readbook()
+
+    readbook() (declared)
+
+    toString()(inherited)
 
 
      */

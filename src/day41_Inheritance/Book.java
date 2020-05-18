@@ -13,7 +13,7 @@ public class Book {
 
 
     public String toString(){
-        return title+" "+ author+" $"+price;
+        return "Title: "+title+", Author: "+ author+", $"+price;
     }
 
 }

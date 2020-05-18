@@ -13,7 +13,7 @@ public class Employee {
     public char gender;
 
     public String toString(){
-        return "Name: "+name+" JobTitle: "+jobTitle+" Salary: $"+salary+" ID: "+id+" Gender: "+gender;
+        return "Name: "+name+", JobTitle: "+jobTitle+", Salary: $"+salary+", ID: "+id+", Gender: "+gender;
     }
 
 

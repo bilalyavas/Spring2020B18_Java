@@ -78,6 +78,7 @@ public class BankAccount {
        }
 
        public String toString(){
+
         return "Full Name: "+ getAccountHolder()+", Balance: "+getBalance();
        }
 

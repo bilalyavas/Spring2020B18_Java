@@ -18,6 +18,22 @@ public class AccountObjects {
 
         System.out.println(obj);
 
+        System.out.println("==================================");
+
+        SavingAccount saving = new SavingAccount();
+        saving.accountHolder = "Elif";
+
+        System.out.println(SavingAccount.interestRate);
+
+        System.out.println( saving );
+
+        saving.deposit(3000);
+        saving.showBalance();
+
+        //saving.withdraw();
+
+
+
     }
 
 }

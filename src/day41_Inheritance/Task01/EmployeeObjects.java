@@ -18,6 +18,8 @@ public class EmployeeObjects {
 
         System.out.println( tester1 );
 
+        BusinessAnalyst BA1 = new BusinessAnalyst("Ozgur", 120000, 789, 'M')
+
 
 
     }

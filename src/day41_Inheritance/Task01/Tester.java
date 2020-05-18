@@ -21,7 +21,7 @@ public class Tester extends Employee {
     toString()  (Inherited)
      */
 
-    public Tester(String name,double salary, int id, String jobTitle,char gender){
+    public Tester(String name,double salary, long id, String jobTitle,char gender){
         this.name=name;
         this.salary=salary;
         this.id=id;

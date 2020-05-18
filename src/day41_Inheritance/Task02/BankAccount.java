@@ -9,7 +9,7 @@ public class BankAccount {
 
     public long accountNumber;
     public String accountHolder;
-    public double balance;
+    public  double balance;
 
     public void deposit(int amount){
         balance += amount;

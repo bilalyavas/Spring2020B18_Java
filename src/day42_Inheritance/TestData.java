@@ -19,7 +19,7 @@ protected
         System.out.println( TestData.publicData );
         System.out.println( TestData.protectedData );
         System.out.println( TestData.defaultData );
-       // System.out.println( TestData.privateData ); // private can never be inherited
+        // System.out.println( TestData.privateData ); // private can never be inherited
 
     }
 

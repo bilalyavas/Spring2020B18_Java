@@ -9,18 +9,16 @@ create a class called company:
 
 public class Company {
 
-    public static Employee employee1;
-    public static Employee employee2;
-    public static Employee employee3;
+    public static Employee employee1 = new Employee();
+    public static Employee  employee2 = new Employee();
+    public static Employee  employee3 = new Employee();
 
     static{
-        employee1 = new Employee();
+
         employee1.setEmployeeInfo("Messi", 32, 'M', 140_000, 13654,"SDET");
 
-        employee2 = new Employee();
         employee2.setEmployeeInfo("Aigerim", 18, 'F', 130_000, 65654,"QA");
 
-        employee3 = new Employee();
         employee3.setEmployeeInfo("Safar", 25, 'M', 128_000, 6599,"BA");
 
     }

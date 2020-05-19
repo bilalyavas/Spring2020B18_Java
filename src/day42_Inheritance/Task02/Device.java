@@ -11,9 +11,10 @@ public class Device {
     public double price;
     public static String country = "China";
     public String type;
+    public String size;
 
     public String toString(){
-        return "Brand: "+brand+", Model: "+model+", Type: "+type+", Price: $"+price+", Made in: "+country;
+        return "Brand: "+brand+", Model: "+model+", Type: "+type+", size: "+size+", Price: $"+price+", Made in: "+country;
     }
 
 

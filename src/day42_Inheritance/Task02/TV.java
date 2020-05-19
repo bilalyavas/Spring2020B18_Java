@@ -12,14 +12,20 @@ public class TV extends Device{
     price,   (Inherited)
     country,   (Inherited)
     Type  (Inherited)
+    size (Inherited)
 
-
-
+    setDevice() (Inherited)
     watch,
     toString  (Inherited)
      */
 
-    public
+    public TV(String brand, String model, double price, String size){
+            setDevice(brand,model, price, "TV", size );
+    }
+
+    public void wacth(){
+        System.out.println("I am watching "+brand+" "+model+" "+type+" that cost me $"+price+" from "+country );
+    }
 
 
 

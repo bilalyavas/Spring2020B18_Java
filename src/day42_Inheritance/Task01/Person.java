@@ -5,7 +5,7 @@ create a class called Person
                 methods: eat, walk, sleep, setPersonInfo
  */
 
-public class Person {
+public class Person  {
 
     public String name;
     public int age;

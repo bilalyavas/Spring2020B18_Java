@@ -1,6 +1,6 @@
 package OfficeHours.Practice_05_20_2020;
 
-public class Dog extends Pet {
+public class Dog extends Pet{
     /*
 	Dog:
 		variables:	name, age, color, size, breed, isPet, numberOfeyes
@@ -8,6 +8,9 @@ public class Dog extends Pet {
 
     not inherited: bark
      */
+
+
+
 
     public void bark(){
         System.out.println(name+ " is barking");

@@ -12,6 +12,8 @@ public class Cat extends Pet{
 
      */
 
+
+
     public void scratch(){
         System.out.println(name+" is scratching");
     }

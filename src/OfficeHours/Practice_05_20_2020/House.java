@@ -12,16 +12,25 @@ public class House {
         System.out.println(dog1);
         System.out.println(dog2);
 
+        dog2.bark();
+       // dog2.scratch();
+        System.out.println("=======================================================================");
+
         Cat cat1 = new Cat("Muffin",7,"white","medium","Ragdoll");
           //  cat1.setInfo("Muffin",7,"white","medium","Ragdoll");
 
         System.out.println(cat1);
 
+        cat1.scratch();
+      //  cat1.bark();
+
+        System.out.println("============================================================");
 
         Bunny bunny1 = new Bunny("Bug",3,"white","small","tiny");
 
         System.out.println(bunny1);
-
+        bunny1.dig();
+     //   bunny1.scratch();
 
 
 

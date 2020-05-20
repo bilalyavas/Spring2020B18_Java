@@ -18,6 +18,13 @@ public class House {
         System.out.println(cat1);
 
 
+        Bunny bunny1 = new Bunny("Bug",3,"white","small","tiny");
+
+        System.out.println(bunny1);
+
+
+
+
 
 
 

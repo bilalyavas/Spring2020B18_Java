@@ -3,7 +3,7 @@ package day43_MethodOverriding;
 class Test{
 
 
-    public void method(){
+    public  void method(){
         System.out.println("Onur");
     }
 

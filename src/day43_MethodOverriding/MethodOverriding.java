@@ -12,7 +12,7 @@ class Test{
 
 public class MethodOverriding extends Test {
 
-    @Override
+
     public void method(){
         System.out.println("Zarina");
     }

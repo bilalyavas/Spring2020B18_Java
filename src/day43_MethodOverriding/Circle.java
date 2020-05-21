@@ -10,8 +10,22 @@ public class Circle extends Shape{
     }
 
     /*
+    area , perimeter
     calculateArea & calculatePrimeter
      */
+
+
+    public void calculateArea(){
+        area = radius * radius * PI;
+        System.out.println("Area of the Circle: "+area);
+    }
+
+    public void calculatePerimeter(){
+        perimeter = radius * 2 * PI;
+        System.out.println("Perimeter of the circle: "+perimeter);
+    }
+
+
 
 
 }

@@ -9,7 +9,7 @@ public class Shape {
     public double area;
     public double perimeter;
 
-    public void calculateArea(){
+   protected void calculateArea(){
         area = 0;
         System.out.println("Area of the shape: "+area);
     }

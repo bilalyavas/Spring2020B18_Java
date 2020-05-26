@@ -10,6 +10,7 @@ public class HelloWorld {
                         /*
                         Date: 03/09/2020
                         My first Hello World project
+
                         my struggles: creating main method
                                       creating print statement
                                       using the short cuts

@@ -13,11 +13,28 @@ public class ExceptionHandling {
         }catch(RuntimeException e){
             String discription  =    e.getMessage();
             System.out.println(discription);
+
         }
 
         System.out.println("==========================================");
+        String result = "";
 
-        System.out.println( 100 / 0 );
+        try {
+            System.out.println(100 / 0);
+            System.out.println("Try block");
+
+        }catch (ArithmeticException e){
+            System.out.println("Catch block");
+          result =  e.getMessage();
+
+        }
+
+
+        System.out.println( result );
+
+
+
+
 
 
         System.out.println("Completed");
@@ -27,3 +44,15 @@ public class ExceptionHandling {
 
 
 }
+
+/*
+testCase:
+        step1
+        step2
+        step3
+        step4
+        ....
+        step10
+
+
+ */

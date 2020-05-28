@@ -62,8 +62,6 @@ class FirefoxBrowser extends Browsers {
     }
 }
 
-
-
 class Test{
     public static void main(String[] args) {
         ChromeBrowser obj = new  ChromeBrowser();

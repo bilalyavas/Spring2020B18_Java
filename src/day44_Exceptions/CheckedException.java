@@ -6,7 +6,7 @@ public class CheckedException {
 
         System.out.println("Test started");
 
-      // Thread.sleep(3000);
+       // Thread.sleep(3000);
 
         System.out.println("Completed");
 

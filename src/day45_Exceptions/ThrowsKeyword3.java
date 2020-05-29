@@ -1,8 +1,10 @@
 package day45_Exceptions;
 
-public class ThrowKeyword {
+import java.io.IOException;
 
-    public static void method1() throws Exception{
+public class ThrowsKeyword3 {
+
+    public static void method1() throws IOException, Exception {
         Thread.sleep(3000);
     }
 

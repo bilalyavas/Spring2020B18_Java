@@ -18,8 +18,6 @@ public class ThrowsKeyword2 {
 
         System.out.println("Complete");
 
-
-
     }
 
 }

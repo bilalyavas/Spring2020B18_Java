@@ -1,6 +1,6 @@
 package day46_final_abstract;
 
-public final class Circle extends Shape{
+public final class Circle extends Shape {
 
     public double radius;
     public final static double PI = 3.14;

@@ -9,6 +9,8 @@ public class ShapeObjects {
         Square obj2 = new Square(4);
         obj2.Area();
 
+        Rectangle obj3 = new Rectangle(2,3);
+        obj3.Area();
 
 
     }

@@ -9,11 +9,9 @@ public final class Circle extends Shape{
         this.radius = radius;
     }
 
-
-    @Override
     public void Area(){
         double area = radius * radius * PI;
-        System.out.println("Area is: "+area);
+        System.out.println("Area of circle: "+area);
     }
 
 }

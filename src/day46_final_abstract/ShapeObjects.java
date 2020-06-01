@@ -6,6 +6,8 @@ public class ShapeObjects {
         Circle  obj1 = new Circle(3.5);
         obj1.Area();
 
+        Square obj2 = new Square(4);
+        obj2.Area();
 
 
 

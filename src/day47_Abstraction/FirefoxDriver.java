@@ -1,6 +1,6 @@
 package day47_Abstraction;
 
-public class FirefoxDriver extends RemoteWebDriver{
+public final class FirefoxDriver extends RemoteWebDriver{
 
 
     @Override

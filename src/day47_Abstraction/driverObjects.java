@@ -8,6 +8,11 @@ public class driverObjects {
         driver.get("https://www.google.com");
         driver.quit();
 
+        System.out.println("================================");
+        FirefoxDriver driver2 = new FirefoxDriver();
+        driver2.get("https://www.google.com");
+        driver2.quit();
+
     }
 
 }

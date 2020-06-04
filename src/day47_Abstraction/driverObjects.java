@@ -14,7 +14,9 @@ public class driverObjects {
         driver2.quit();
 
         System.out.println("==================================");
-
+        OperaDriver driver3 = new OperaDriver();
+        driver3.get("https://www.google.com");
+        driver3.quit();
 
 
 

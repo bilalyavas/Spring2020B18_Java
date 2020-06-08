@@ -7,13 +7,12 @@ public class Test implements Interface_Intro {
 
     }
 
-    public void method2(){
-
+    public int method2(){
+        return 10;
     }
 
     public void method3(){
 
     }
-
 
 }

@@ -1,9 +1,11 @@
 package day48_Abstraction;
 
 public class iPhone extends Phone {
+    static{
+        brand = "iPhone";
+    }
 
     public iPhone(String model, double price, String size){
-        brand = "iPhone";
         this.model = model;
         this.price = price;
         this.size = size;
@@ -11,15 +13,15 @@ public class iPhone extends Phone {
 
     @Override
     public void calling(long phoneNumber) {
-        System.out.println("iPhone is calling with "+phoneNumber);
+        System.out.println("iPhone is calling "+phoneNumber);
     }
 
     @Override
     public void texting(long phoneNumber) {
-        System.out.println("iPhone is texting with "+phoneNumber);
+        System.out.println("iPhone is texting  "+phoneNumber);
     }
 
-    public void FaceTiming(long phoneNumber){
+    public void faceTiming(long phoneNumber){
         System.out.println("iPhone is facetiming with "+phoneNumber);
     }
 

@@ -8,7 +8,7 @@ package day48_Abstraction;
  */
 
 public abstract class Phone {
-    public String brand;
+    public static String brand;
     public String model;
     public double price;
     public String size;

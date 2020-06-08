@@ -3,6 +3,7 @@ package day48_Abstraction;
 public class iPhone extends Phone {
     static{
         brand = "iPhone";
+
     }
 
     public iPhone(String model, double price, String size){

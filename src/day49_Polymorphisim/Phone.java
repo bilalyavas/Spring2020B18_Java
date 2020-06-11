@@ -16,10 +16,10 @@ interface AppleApps extends downloadable { // 2 var, 1 abstract method
 
 
 public abstract class Phone {
-    static String brand;
-    String model;
-    double price;
-    String size;
+    public static String brand;
+    public String model;
+    public double price;
+    public String size;
 
     public abstract void texting(long phoneNumber);
     public abstract void calling(long phoneNumber);

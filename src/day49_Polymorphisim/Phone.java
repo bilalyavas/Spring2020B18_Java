@@ -25,7 +25,7 @@ public abstract class Phone { // 2 abstract method
     public abstract void calling(long phoneNumber);
 
     public String toString(){
-        return "brand='" + brand + ", model='" + model + ", price=" + price + ", size='" + size;
+        return "brand= " + brand + ", model= " + model + ", price= " + price + ", size= " + size;
     }
 
 }

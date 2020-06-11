@@ -1,6 +1,6 @@
 package day49_Polymorphisim;
 
-public class iPhone extends Phone implements AppleApps {
+public final class iPhone extends Phone implements AppleApps {
 
     static{
         brand = "Apple";

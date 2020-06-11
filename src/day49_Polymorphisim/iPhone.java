@@ -3,7 +3,7 @@ package day49_Polymorphisim;
 public class iPhone extends Phone implements AppleApps {
 
     static{
-        brand = "iPhone";
+        brand = "Apple";
     }
 
     public iPhone(String model, double price, String size) {
@@ -31,6 +31,9 @@ public class iPhone extends Phone implements AppleApps {
         System.out.println("iPhone is facetiming to "+phoneNumber);
     }
 
+    public void selfie(){
+        System.out.println(model+ " takes a great selfie");
+    }
 
 
 }

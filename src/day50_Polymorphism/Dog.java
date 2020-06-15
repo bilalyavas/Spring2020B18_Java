@@ -14,9 +14,12 @@ public final class Dog extends Animal{ // 3 var, 3 methods
         this.gender=gender;
     }
 
+
     public void eat(){
         System.out.println("Dog "+ dogName+ " is eating");
     }
+
+
 
     public void sleep(){
         System.out.println("Dog "+ dogName+ " is sleeping");

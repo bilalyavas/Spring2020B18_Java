@@ -6,7 +6,7 @@ package day50_Polymorphism;
 
         DO NOT make them abstract we need this for today's example
  */
-public abstract class Animal {
+public abstract class Animal { // 2 var, 2 in method
 
     public int age;
     public String gender;

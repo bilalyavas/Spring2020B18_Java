@@ -36,6 +36,8 @@ public class ReferenceTypeCasting {
         ( (Dog)animal5 ).bark();
 
 
+       ((Dog) animal5).bark();
+
     }
 
 }

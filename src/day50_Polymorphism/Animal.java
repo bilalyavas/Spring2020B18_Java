@@ -19,5 +19,8 @@ public abstract class Animal { // 2 var, 2 in method
         System.out.println("Animal is sleeping");
     }
 
+    public static void methodA(){
+        System.out.println("Animal Class");
+    }
 
 }

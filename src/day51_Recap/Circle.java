@@ -10,13 +10,13 @@ public final class Circle extends Shape implements PI { //3 Var
 
     public double radius;
 
+
     public Circle(double radius){
         this.radius = radius;
-    }
-
-    static{
         name = "Circle";
     }
+
+
 
     @Override
     public double calculateArea() {

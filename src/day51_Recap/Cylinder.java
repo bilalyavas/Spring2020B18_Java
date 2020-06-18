@@ -10,13 +10,13 @@ public final class Cylinder extends Shape implements Volume, PI {
     public double radius;
     public double height;
 
-    static{
-        name = "Cylinder";
-    }
+
+
 
     public Cylinder(double radius, double height){
         this.radius = radius;
         this.height = height;
+        name = "Cylinder";
     }
 
 

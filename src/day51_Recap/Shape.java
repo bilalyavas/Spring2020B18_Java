@@ -14,7 +14,7 @@ package day51_Recap;
  */
 public abstract class Shape {
 
-    public static String name;
+    public String name;
 
     public abstract double calculateArea();
 

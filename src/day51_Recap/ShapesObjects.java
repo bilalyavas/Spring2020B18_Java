@@ -20,6 +20,12 @@ public class ShapesObjects {
         ArrayList<Shape> list = new ArrayList<>();
         list.addAll( Arrays.asList(circle1,circle2 , cylinder1, cylinder2 ) );
 
+        for(Shape eachShape : list ){
+            System.out.println( eachShape.name +" : " + eachShape.calculateArea() );
+        }
+
+
+
 /*
        // Shape shape1 = circle1; // upcasting
         Shape shape2 = new Cylinder(3,6);

@@ -23,14 +23,11 @@ public abstract class Shape {
 }
 
 interface Volume{
-
     boolean hasVolume = true;
     double calculateVolume();
 
 }
 
 interface PI{
-
     double PI = 3.14;
-
 }

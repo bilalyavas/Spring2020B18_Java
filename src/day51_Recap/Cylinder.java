@@ -22,7 +22,7 @@ public final class Cylinder extends Shape implements Volume, PI {
 
     @Override
     public double calculateArea() {
-        return (PI * radius * radius) + (height * PI * radius);
+        return (PI * 2 * radius * radius) + (height * PI * 2 * radius);
     }
 
     @Override

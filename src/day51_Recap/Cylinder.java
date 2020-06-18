@@ -27,11 +27,11 @@ public final class Cylinder extends Shape implements Volume, PI {
 
     @Override
     public double calculatePerimeter() {
-        return 0;
+        return 2 * (PI * 2 * radius + height);
     }
 
     @Override
     public double calculateVolume() {
-        return 0;
+        return PI * radius * radius * height;
     }
 }

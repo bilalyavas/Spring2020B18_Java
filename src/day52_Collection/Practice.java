@@ -17,7 +17,13 @@ public class Practice {
      */
 
     public static void main(String[] args) {
+        String str = "ABABABCDEF";// ABCDEF
+        String[] arr = str.split("");
+        str = new LinkedHashSet<>(Arrays.asList(arr)).toString().replace(", ", "");
+        System.out.println(str);
 
+
+    /*
         String str = "ABABABCDEF";// ABCDEF
         String[] arr = str.split("");
         str = "";
@@ -26,6 +32,8 @@ public class Practice {
          }
 
         System.out.println(str);
+*/
+
 
         /*
 

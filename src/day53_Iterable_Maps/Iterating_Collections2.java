@@ -22,6 +22,8 @@ public class Iterating_Collections2 {
 
         System.out.println(names);
 
+        System.out.println("==============================================");
+
     }
 
 }

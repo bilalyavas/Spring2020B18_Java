@@ -27,6 +27,8 @@ public class Iterating_Collection {
         ArrayList<Integer> list3 = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
         Iterator<Integer>  it =list3.iterator();
 
+      //  System.out.println(it.hasNext());
+      //  System.out.println(it.next());
          while( it.hasNext() ){
             if( it.next()  < 4 ){
                 it.remove();

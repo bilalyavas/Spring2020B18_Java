@@ -1,8 +1,6 @@
 package day53_Iterable_Maps;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
+import java.util.*;
 
 public class Iterating_Collections2 {
 
@@ -64,6 +62,15 @@ public class Iterating_Collections2 {
 
         System.out.println(R);
 
+        System.out.println("========================================================");
+        List<Integer>  list = new ArrayList<>();
+          list.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7));
+
+          // verify 5, 6, 9, 8 are contained in the list
+          boolean result = list.containsAll( Arrays.asList(5, 6, 9, 8, 11 ) ); // false
+
+        System.out.println(     list.containsAll( Arrays.asList(5, 6, 9, 8, 11 ) )      );
+        System.out.println( result );
 
 
 

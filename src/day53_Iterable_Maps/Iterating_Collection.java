@@ -2,6 +2,7 @@ package day53_Iterable_Maps;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class Iterating_Collection {
 
@@ -23,6 +24,26 @@ public class Iterating_Collection {
         System.out.println(list2);
 
         System.out.println("=================================");
+        ArrayList<Integer> list3 = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
+        Iterator<Integer>  it =list3.iterator();
+
+         while( it.hasNext() ){
+            if( it.next()  < 4 ){
+                it.remove();
+            }
+         }
+        System.out.println(list3);
+
+        System.out.println("=================================");
+        ArrayList<Integer> list4 = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
+
+        for(Iterator<Integer> I = list4.iterator();  I.hasNext();  ){
+            if( I.next() < 4) {
+                I.remove();
+            }
+        }
+
+        System.out.println(list4);
 
     }
 

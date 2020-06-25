@@ -32,6 +32,7 @@ public class Collection_Practice {
         ArrayList<String> arraylist = new ArrayList<>(Arrays.asList("E", "B", "A", "D", "D", "C", "A"));
         LinkedHashSet<String> st2 = new LinkedHashSet<>(arraylist);
 
+
         System.out.println(st2);
 
     }

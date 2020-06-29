@@ -35,6 +35,31 @@ public class Maps_Practice1 {
         classMates.clear();
         System.out.println(classMates);
 
+        System.out.println("=======================================");
+
+        LinkedHashMap<String, Integer> students = new LinkedHashMap<>();
+        students.put("Adil",92);
+        students.put("Hunar",89);
+        students.put("Barzy",75);
+        students.put("Rahman",93);
+        students.put("Hardi",80);
+
+        LinkedHashMap<String, Integer> badStudents = new LinkedHashMap<>();
+        LinkedHashMap<String, Integer> goodStudents = new LinkedHashMap<>();
+
+        for( String eachKey   : students.keySet()  ){
+                int eachValue = students.get(eachKey);  // score
+
+                if( eachValue < 90){
+                   badStudents.put(eachKey, eachValue );
+                }else{
+                    goodStudents.put(eachKey, eachValue );
+                }
+        }
+
+
+        System.out.println(badStudents);
+        System.out.println(goodStudents);
 
 
 

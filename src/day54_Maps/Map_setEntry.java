@@ -14,7 +14,7 @@ public class Map_setEntry {
         countries.put("Pakistan","Islamabad");
 
         for(Map.Entry<String, String>   each : countries.entrySet()  ) {
-
+            System.out.println( "Capital city of" + each.getKey() + " is : " + each.getValue() );
         }
 
 

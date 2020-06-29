@@ -28,6 +28,10 @@ public class GarbageCollector {
         System.out.println(n);
 
 
+        GarbageCollector obj3 = new GarbageCollector();
+     //   obj3.finalize();
+
+
 
     }
 }

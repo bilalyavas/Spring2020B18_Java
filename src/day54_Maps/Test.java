@@ -10,6 +10,10 @@ public class Test {
         System.out.println( myFaveColor1 );
 
 
+        Browsers browseName = Browsers.Chrome;
+
+        System.out.println(browseName);
+
 
     }
 }

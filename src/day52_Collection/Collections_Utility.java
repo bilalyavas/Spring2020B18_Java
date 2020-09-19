@@ -17,7 +17,7 @@ public class Collections_Utility {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.addAll( Arrays.asList(100, 2000, 50, 50, 100, 200, 300, 50));
              //1,2,3,4,5,6,7
-        nums = new ArrayList<>(  new TreeSet<>(nums) );
+        nums = new ArrayList<>(new TreeSet<>(nums)   );
 
         System.out.println(nums);
 

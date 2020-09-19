@@ -36,7 +36,7 @@ public class sets {
         System.out.println(hashSet);
 
         TreeSet<String> treeset = new TreeSet<>();
-        treeset.add(null);
+        //treeset.add(null);
 
         System.out.println(treeset);
 

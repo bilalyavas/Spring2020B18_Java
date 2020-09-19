@@ -2,6 +2,7 @@ package day52_Collection;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class Q {
 
@@ -13,6 +14,8 @@ public class Q {
             q.add("C");
 
         System.out.println(q);
+        //Queue<String> q1 = new Queue<>();
+
 
           String str =  q.poll(); //A
         System.out.println(str );

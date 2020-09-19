@@ -1,6 +1,7 @@
 package day52_Collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class null_Keyword {
 
@@ -24,15 +25,16 @@ public class null_Keyword {
         System.out.println(list1);
         System.out.println("==============================");
         String number = "123";
-
+        System.out.println(number);
         int num1 = Integer.parseInt(number);
 
         System.out.println(num1);
 
         System.out.println("===============================");
         String[] arr = {null, "Cybertek", "ABC"};
+        //arr[0].toUpperCase();
         arr[2].toUpperCase();
-
+        System.out.println(Arrays.toString(arr));
         String name1 = "cybertek".toUpperCase();
                 name1 = null;
                // name1 =  name1.toLowerCase();

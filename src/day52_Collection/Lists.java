@@ -1,6 +1,7 @@
 package day52_Collection;
 
 import java.util.*;
+import java.util.jar.JarOutputStream;
 
 public class Lists {
     public static void main(String[] args) {
@@ -16,6 +17,9 @@ public class Lists {
         System.out.println("===================================");
         ArrayList<Integer> arraylist = new ArrayList<>();
         arraylist.add(10);
+
+        LinkedList<Integer> list4 = new LinkedList<>();
+
 
         Vector<Integer>  vector = new Vector<>();
         vector.add(10);
@@ -36,15 +40,16 @@ public class Lists {
 
            String s1 = names.pop(); //"Rustem"
         System.out.println(s1);
-
         System.out.println(names);
 
-        String s2 =    names.pop(); // "Anna"
+        String s2 = names.pop();
         System.out.println(s2);
         System.out.println(names);
 
-        names.push("Phu");
+        names.push("Bilal");
         System.out.println(names);
+
+
 
 
     }

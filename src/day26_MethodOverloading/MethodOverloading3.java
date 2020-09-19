@@ -15,9 +15,10 @@ second method: can find the sum of two double numbers
        double num1 = sum(10, 15.5);
         System.out.println(num1);
 
+
         // 25L, 30L
         double num2 = sum(25L, 30L);
-
+        System.out.println(num2);
         // 5, 4
        //double num3 =  sum(5,4);   // vpoid method does not return any value
 

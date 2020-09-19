@@ -10,7 +10,7 @@ public class Car {
     public Car(String brand, String model, int year, double price){
         this.brand = brand;
         this.model = model;
-        this.year = year;
+       this.year = year;
         this.price = price;
     }
 

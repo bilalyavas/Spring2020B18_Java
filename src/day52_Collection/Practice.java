@@ -21,7 +21,7 @@ public class Practice {
     public static void main(String[] args) {
         String str = "ABABABCDEF";// ABCDEF
         String[] arr = str.split("");
-        str = new LinkedHashSet<>(Arrays.asList(arr)).toString().replace(", ", "");
+        str= new LinkedHashSet<>(Arrays.asList(arr)).toString().replace(", ", "");
         System.out.println(str);
 
 
@@ -80,7 +80,7 @@ public class Practice {
 
         str1 = new TreeSet<>( Arrays.asList(str1.split("")) ).toString();
         str2 = new TreeSet<>( Arrays.asList(str2.split("")) ).toString();
-
+        System.out.println(str2);
         System.out.println(str1.equals(str2));
 
 

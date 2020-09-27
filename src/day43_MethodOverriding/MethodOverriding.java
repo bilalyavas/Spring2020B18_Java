@@ -3,7 +3,7 @@ package day43_MethodOverriding;
 class Test{
 
 
-    public  void method(){
+     public void method(){
         System.out.println("Onur");
     }
 
@@ -13,7 +13,7 @@ class Test{
 public class MethodOverriding extends Test {
 
 
-    public void method(){
+     public void method(){
         System.out.println("Zarina");
     }
 
@@ -24,6 +24,9 @@ public class MethodOverriding extends Test {
 
         MethodOverriding obj2 = new MethodOverriding();
         obj2.method(); // Zarina
+
+       // Test obj3 = new MethodOverriding();
+       // obj3.method();
 
     }
 

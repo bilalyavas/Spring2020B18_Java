@@ -8,6 +8,7 @@ public class Collections_Utility {
 
         List<Integer> list1 = new ArrayList<>();
         list1.addAll(Arrays.asList(10,9,8,7,6,5,4) );
+        System.out.println(list1);
         Collections.sort(list1);
         System.out.println(list1);
 
@@ -17,7 +18,8 @@ public class Collections_Utility {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.addAll( Arrays.asList(100, 2000, 50, 50, 100, 200, 300, 50));
              //1,2,3,4,5,6,7
-        nums = new ArrayList<>(new TreeSet<>(nums)   );
+       nums = new ArrayList<>(new TreeSet<>(nums)   );
+       // nums= new ArrayList<>(new LinkedHashSet<>(nums));
 
         System.out.println(nums);
 
@@ -34,9 +36,9 @@ public class Collections_Utility {
 
         ArrayList<String> letters = new ArrayList<>();
         letters.addAll( Arrays.asList("A", "B", "C", "B", "D") );
-
+        int i = Collections.frequency(letters, "B");
         boolean result = Collections.frequency(letters, "A") == 1;
-
+        System.out.println(i);
         System.out.println(result);
 
 

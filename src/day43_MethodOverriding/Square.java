@@ -9,7 +9,7 @@ public class Square extends Shape {
     }
 
     @Override
-    public void calculateArea(){
+   public void calculateArea(){
         area=side*side;
         System.out.println( "Area of the square: "+area );
     }

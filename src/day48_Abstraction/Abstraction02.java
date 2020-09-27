@@ -3,8 +3,8 @@ interface A1{
     void method1(); // public
 }
 
-interface B1{
-    abstract int method2(); // public
+ interface B1{
+     abstract int method2(); // public
 }
 
 interface C1{

@@ -1,6 +1,6 @@
 package day47_Abstraction;
 
-abstract class A {
+ abstract class A {
     public abstract void method1();
     public void method2() { }
 

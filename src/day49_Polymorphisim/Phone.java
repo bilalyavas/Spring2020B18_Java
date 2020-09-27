@@ -24,10 +24,14 @@ public abstract class Phone { // 2 abstract method
     public abstract void texting(long phoneNumber);
     public abstract void calling(long phoneNumber);
 
-    public String toString(){
-        return "brand= " + brand + ", model= " + model + ", price= " + price + ", size= " + size;
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "model='" + model + '\'' +
+                ", price=" + price +
+                ", size='" + size + '\'' +
+                '}';
     }
-
 }
 
 /*

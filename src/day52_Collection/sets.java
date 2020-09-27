@@ -28,7 +28,9 @@ public class sets {
         numbers.addAll( Arrays.asList(10,9,10, 9, 8, 7, 8, 7, 6, 5, 6));
 
         System.out.println(numbers);
-
+        System.out.println("___________________________________");
+numbers= new TreeSet<>(new LinkedHashSet<>(numbers));
+        System.out.println(numbers);
         System.out.println("==========================");
         HashSet<String> hashSet = new HashSet<>();
         hashSet.add(null);

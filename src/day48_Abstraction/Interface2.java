@@ -19,7 +19,7 @@ public interface Interface2 {
 
     }
 
-   static void method4(){ }
+    static void method4(){ }
 
     void method5();
 

@@ -41,7 +41,7 @@ public class MethodOverLoading2 {
         Arrays.sort(arr2);
         Arrays.sort(arr3); // same method name, different parameter
 
-
+        System.out.println(Arrays.toString(arr1));
 
     }
 

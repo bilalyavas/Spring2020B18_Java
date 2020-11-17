@@ -26,8 +26,9 @@ public class Collections_Utility {
         System.out.println("====================================");
         // 2. write a program that can removed the duplicates from an arraylist. DO NOT change the order
      //   [6,6,6,6,5,5,5,4,4,4,4] ==> [6,5,4]
-
+        System.out.println("+++++++++++++++++++++++++++++++++++++++");
         ArrayList<Integer>  list = new ArrayList<>(Arrays.asList(6,6,6,6,5,5,5,4,4,4,4));
+        System.out.println(list);
         list = new ArrayList<>(  new LinkedHashSet<>(list)  );
         System.out.println(list);
 
